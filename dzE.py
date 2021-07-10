@@ -81,4 +81,4 @@ async def ekfar(ctx):
     embed.add_field(name="Включить уведомление ",value="starttimeout",inline=False)
     await ctx.channel.send(embed=embed)
     
-client.run('ODU0MDM4OTQ5MDgxMTIwODA4.YMeHwA._5b56gapDJD40xOX3zvzvfs51n0')
+client.run(os.environ['token'])
